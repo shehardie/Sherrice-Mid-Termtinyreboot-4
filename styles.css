@@ -1,0 +1,82 @@
+ /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      background-color: #4A2160;
+      margin-bottom: 0;
+      border-radius: 0;
+      font-style: Sans-Serif;
+      font-color:black;
+    }
+    .nav-item {
+      font-size: 18px;
+      padding: 25px
+    }
+    .carousel-control {
+      background-image: url("washi copy.png")
+    }
+    
+    hr {
+      border: dashed;
+      color: grey;
+      height: 10px;
+    }
+    //*.header {
+      background-image: url("images/memphis-colorful.png");
+    }*/
+     .header { 
+      background-image: url("images/background-2789695_960_720.jpg");
+     }
+    
+    body {
+      background-color: teal;
+      font-family: 'Happy Monkey', cursive;
+      margin-right: 50px;
+      margin-left: 50px;
+    
+    }
+    h1 {
+
+font-family: 'Ruge Boogie', cursive;
+text-align: center;
+font-size: 60px;
+    }
+  .header {
+    text-align: center;
+  }
+    }
+   .container-fluid1 {
+      background-image: url("images/pink_rice copy.png");
+
+    }
+    .container {
+      background-color: #819A00;
+      padding-right: 50px;
+      padding-left: 50px;
+    }
+    .panel-primary {
+      background-color: #77006D;
+      border: 0;
+      margin-top: 20px;
+    }
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-image: url("images/green_dust_scratch_@2X copy.png");
+      padding: 25px;
+      margin-bottom: 50px
+    }
+   .carousel-inner {
+      width: 100%;
+      background: url("images/washi copy.png");
+   }
+   .carousel-inner img {
+      width: 75%%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+      
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
